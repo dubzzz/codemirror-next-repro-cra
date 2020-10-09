@@ -1,0 +1,16 @@
+{
+  "name": "codemirror.jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/next": "^0.13.0",
+    "fast-check": "^2.4.0",
+    "jest": "^26.5.2"
+  }
+}

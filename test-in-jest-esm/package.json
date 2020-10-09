@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "codemirror.jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/next": "^0.13.0",
+    "fast-check": "^2.4.0",
+    "jest": "^26.5.2"
+  }
+}
