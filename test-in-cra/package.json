@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@codemirror/next": "^0.13.0",
+    "@codemirror/next": "^0.14.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts --experimental-vm-modules test",
+    "test:bis": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
