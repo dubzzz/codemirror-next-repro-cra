@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 import { highlighter } from "@codemirror/next/highlight";
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-export function myHighlighter() { // exported just not to be marked unused
+export function myHighlighter() {
+  // exported just not to be marked unused
   return highlighter({});
 }
 
 function App() {
+  myHighlighter();
   return (
     <div className="App">
       <header className="App-header">
